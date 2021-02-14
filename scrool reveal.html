@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        .my-text{
+            font-size: 100px;
+            color: white;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+            font-weight: bold;
+        }
+        section{
+            height: 100vh;
+            padding: 30%;
+        }
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container text-center">
+        <section class="bg-danger">
+              <h1 class="my-text">section 1</h1>
+        </section>
+        <section class="bg-primary">
+                <h1 class="my-text">section 2</h1>
+        </section>
+        <section class="bg-success">
+                <h1 class="my-text">section 3</h1>
+        </section>
+        <section class="bg-warning">
+                <h1 class="my-text">section 4</h1>
+        </section>
+      </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.my-text',{delay:50,reset:true,duration:2000,distance:'100px',origin:})
+    </script>
+      
+    </body>
+</html>

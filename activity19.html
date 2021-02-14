@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body><div class="row text-center">
+      <div class="col-md"><button class="btn btn-outline-success" onclick="popup1()">Alan Walker</button></div>
+      <div class="col-md"><button class="btn btn-outline-success" onclick="popup2()">bellie eilish</button></div>
+      <div class="col-md"><button class="btn btn-outline-success" onclick="popup3()">Imagine dragons</button></div>
+  </div>
+  
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+      <script>
+          popup1=function(){
+              Swal.fire({title:'alan walker',text:"Alan Olav Walker is an English-Norwegian DJ and record producer. In 2015, Walker received international acclaim after releasing the single Faded, which received platinum certifications in 14 countries. In 2020, he was ranked 26th on DJ Mag. He released his debut studio album, Different World, in 2018.",imageUrl:"https://www.gstatic.com/tv/thumb/persons/986833/986833_v9_ba.jpg",imageHieght:'20px',imageWidth:'100px' ,background:'url(https://i.pinimg.com/originals/37/25/af/3725af2c766dc033f226ce44e8c8694b.jpg)',backdrop:'url(https://wallpaperaccess.com/full/981631.jpg) '})
+          }
+          popup2=function(){
+              Swal.fire('bellie eilish','Billie Eilish Pirate Baird O Connell (/ˈaɪlɪʃ/ EYE-lish;[1] born December 18, 2001 is an American singer-songwriter. She first gained attention in 2015 when she uploaded the song Ocean Eyes to SoundCloud, which was subsequently released by the Interscope Records subsidiary Darkroom.')
+          }
+          popup3=function(){
+              Swal.fire('Imagine dragons','Imagine Dragons is an American pop rock band from Las Vegas, Nevada, consisting of lead singer Dan Reynolds, lead guitarist Wayne Sermon, bassist Ben McKee, and drummer Daniel Platzman.[1] The band first gained exposure with the release of their single Its Time, followed by their award-winning debut studio album Night Visions (2012), which resulted in the chart-topping singles Radioactive and Demons. Rolling Stone named Radioactive, which holds the record for most weeks charted on the Billboard Hot 100, the biggest rock hit of the year.')
+          }
+      </script>
+     </body>
+</html>
